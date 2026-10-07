@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: Hello
         run: echo "Hello from Kulziya"
+      - name: Operating System
+        run: uname -a
