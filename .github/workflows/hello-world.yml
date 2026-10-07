@@ -1,12 +1,12 @@
 name: Hello World
 
 on:
-push:
+  push:
 
 jobs:
-hello:
-runs-on: ubuntu-latest
+  hello:
+    runs-on: ubuntu-latest
 
-steps:
-- name: Hello
-run: echo "Hello from Kulziya"
+    steps:
+      - name: Hello
+      run: echo "Hello from Kulziya"
