@@ -12,7 +12,5 @@ jobs:
         run: echo "Hello from Kulziya"
       - name: Operating System
         run: uname -a
-      - name: Check Python
-        run: python3 --version
-      - name: Check Python Syntax
-        run: python3 -m py_compile hello.py
+      - name: Current Directory
+        run: pwd
